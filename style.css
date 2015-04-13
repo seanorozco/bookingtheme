@@ -1,0 +1,198 @@
+/*
+ Theme Name:   Booking Theme
+ Theme URI:    http://seanoroz.co/themes/bookingtheme/
+ Description:  Simple booking theme.
+ Author:       Sean Orozco
+ Author URI:   http://seanoroz.co
+ Version:      0.0.1
+ Text Domain:  bookingtheme
+*/
+/* GENERAL STYLES 
+=================================== */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 2em; }
+  body p, body ol, body ul, body .panel-title {
+    font-size: 1.25em; }
+  @media (min-width: 769px) {
+    body {
+      padding-top: 60px !important;
+      padding-bottom: 4em; } }
+
+/* NAVBAR STYLES 
+=================================== */
+.navbar {
+  margin-bottom: 0; }
+
+@media (max-width: 768px) {
+  .navbar-fixed-top {
+    position: relative; } }
+
+.navbar-inverse {
+  background-color: #76a941;
+  border-color: rgba(8, 8, 8, 0.11); }
+  .navbar-inverse .navbar-brand > span {
+    padding-right: .25em; }
+  .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: #f1f1f1; }
+    @media (min-width: 768px) {
+      .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+        font-weight: bold; } }
+  @media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+      color: #f1f1f1;
+      padding-left: 35px; } }
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus,
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #4f722c; }
+  @media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+      background-color: #6c9a3b; } }
+  .navbar-inverse .dropdown-menu > .active > a, .navbar-inverse .dropdown-menu > .active > a:hover, .navbar-inverse .dropdown-menu > .active > a:focus {
+    background-color: #6c9a3b; }
+
+li.menu-item-logout a {
+  margin-top: -2px; }
+  li.menu-item-logout a:before {
+    margin-right: 4px;
+    font-family: 'Glyphicons Halflings';
+    content: "\e163"; }
+
+/* SLIDER STYLES 
+=================================== */
+.metaslider {
+  margin-top: 1em !important; }
+
+.metaslider .flexslider {
+  margin-bottom: 45px !important; }
+
+/* CALENDAR STYLES 
+=================================== */
+@media (min-width: 768px) {
+  .hasDatepick .datepick-inline .datepick-days-cell {
+    height: 80px; } }
+
+.datepick-inline .calendar-links {
+  background: #4982c3 !important; }
+
+.datepick-inline .datepick-header,
+.datepick-inline .calendar-links .datepick-prev a, .datepick-inline .calendar-links .datepick-next a, .datepick-inline .calendar-links .datepick-prev a:hover, .datepick-inline .calendar-links .datepick-next a:hover {
+  color: #fff !important;
+  text-shadow: none !important; }
+
+.datepick-inline .datepick, .datepick-inline .datepick-header, .datepick-inline .datepick-header span, .datepick-inline .calendar-links, .datepick-inline .calendar-links a {
+  font-size: 20px !important; }
+
+.datepick-inline .calendar-links .datepick-prev {
+  padding-left: 2% !important; }
+
+.datepick-inline .calendar-links .datepick-next {
+  padding-right: 2% !important; }
+
+.datepick-inline .datepick-days-cell, .datepick-inline .datepick-days-cell a, .datepick-inline .datepick-days-cell div, .datepick-inline .datepick-title-row, .datepick-inline .datepick-title-row th {
+  font-size: 16px !important; }
+
+.datepick-inline .calendar-links .datepick-prev a, .datepick-inline .calendar-links .datepick-next a {
+  font-size: 1.5em !important; }
+
+/* MAP STYLES 
+=================================== */
+.map-wrap {
+  margin-bottom: 2em; }
+
+.google-map-placeholder {
+  border: 5px solid #eee !important; }
+
+/* ADMIN STYLES 
+=================================== */
+body.admin-bar .container {
+  padding: 10px 20px 0; }
+
+/* FOOTER SCROLLUP STYLES 
+=================================== */
+.scrollup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; }
+  .scrollup span {
+    color: #9a519f;
+    font-size: 3em; }
+
+/* LIST STYLES 
+=================================== */
+.loc-list-1a div, .loc-list-1b div, .loc-list-2a div, .loc-list-2b div, .loc-list-3a div, .loc-list-3b div {
+  padding-bottom: 1em;
+  padding-left: 3.5em; }
+
+.loc-list-1a div:first-child {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-a.png") no-repeat 15px top; }
+
+.loc-list-1a div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-b.png") no-repeat 15px top; }
+
+.loc-list-1a div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-c.png") no-repeat 15px top; }
+
+.loc-list-1a div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-d.png") no-repeat 15px top; }
+
+.loc-list-1b div:nth-child(1) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-e.png") no-repeat 15px top; }
+
+.loc-list-1b div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-f.png") no-repeat 15px top; }
+
+.loc-list-1b div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-g.png") no-repeat 15px top; }
+
+.loc-list-1b div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_orng-h.png") no-repeat 15px top; }
+
+.loc-list-2a div:first-child {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-a.png") no-repeat 15px top; }
+
+.loc-list-2a div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-b.png") no-repeat 15px top; }
+
+.loc-list-2a div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-c.png") no-repeat 15px top; }
+
+.loc-list-2a div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-d.png") no-repeat 15px top; }
+
+.loc-list-2b div:nth-child(1) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-e.png") no-repeat 15px top; }
+
+.loc-list-2b div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-f.png") no-repeat 15px top; }
+
+.loc-list-2b div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-g.png") no-repeat 15px top; }
+
+.loc-list-2b div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_bl-h.png") no-repeat 15px top; }
+
+.loc-list-3a div:first-child {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-a.png") no-repeat 15px top; }
+
+.loc-list-3a div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-b.png") no-repeat 15px top; }
+
+.loc-list-3a div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-c.png") no-repeat 15px top; }
+
+.loc-list-3a div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-d.png") no-repeat 15px top; }
+
+.loc-list-3b div:nth-child(1) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-e.png") no-repeat 15px top; }
+
+.loc-list-3b div:nth-child(2) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-f.png") no-repeat 15px top; }
+
+.loc-list-3b div:nth-child(3) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-g.png") no-repeat 15px top; }
+
+.loc-list-3b div:nth-child(4) {
+  background: transparent url("../../plugins/comprehensive-google-map-plugin/assets/css/images/markers/_grn-h.png") no-repeat 15px top; }

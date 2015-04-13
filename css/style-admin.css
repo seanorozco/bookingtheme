@@ -1,0 +1,17 @@
+body.login {
+  background-color: #f5f5f5;
+}
+#login h1 {
+  display:none;
+}
+#backtoblog {
+  display:none; 
+}
+
+
+.login .button-primary {
+}
+.login .button-primary:hover {
+}
+.login .button-primary:active {
+}
